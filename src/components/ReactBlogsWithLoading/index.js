@@ -36,10 +36,10 @@ const BlogPostListWithLoading = props => {
       {/* Display blog posts if not loading */}
       {!loading &&
         blogPosts.map(post => (
-          <div key={post.id} className="blog-post">
+          <div key={post.post_id} className="blog-post">
             <h2>{post.title}</h2>
-            <p>Author: {post.author}</p>
-            <button onClick={() => viewFullPost(post.id)}>
+            <p>content: {post.content}</p>
+            <button onClick={() => viewFullPost(post.post_id)}>
               View Full Post
             </button>
           </div>
