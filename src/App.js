@@ -1,5 +1,7 @@
 import './App.css'
-import BlogPostList from './components/ReactBlog'
+// import BlogPostList from './components/ReactBlog'
+
+import BlogPostListWithLoading from './components/ReactBlogsWithLoading'
 
 const postsArray = [
   {
@@ -24,6 +26,6 @@ const postsArray = [
   },
 ]
 
-const App = () => <BlogPostList items={postsArray} />
+const App = () => <BlogPostListWithLoading BlogsPost={postsArray} />
 
 export default App
