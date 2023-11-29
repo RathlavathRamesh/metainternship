@@ -1,6 +1,4 @@
 In this project, let's build ** React Component** for showing the posts.
-### Design Files
-
 
 ### Set Up Instructions
 
